@@ -1,9 +1,55 @@
 body {
   padding: 50px;
-  font-family: sans-serif;
+  background-image: url("https://thumbs.gfycat.com/CooperativeSinfulFieldmouse-small.gif");
 }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 100px;
+  color: red;
+  text-decoration-line: underline;
+  text-shadow: 4px 4px  coral;
+  text-align: center;
+}
+
 
 #container {
   display: flex;
-  justify-content: flex;
+  justify-content: center;
+}
+
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid white;
+  width: 165px;
+}
+
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+}
+
+.todoListMain .header button:hover {
+    background-color: darkred;
+    border: 2px solid darkred;
+    cursor: pointer;
+}
+
+.todoListMain .theList li {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+ul.theList {
+  padding: 0;
 }
