@@ -7,7 +7,7 @@ let destination = document.querySelector("#container");
 
 ReactDOM.render(
   <div>
-<TodoList/>
+    <TodoList />
   </div>,
   destination
 );

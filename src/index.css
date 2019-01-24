@@ -4,14 +4,13 @@ body {
 }
 
 h1 {
-  font-family: sans-serif;
-  font-size: 100px;
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: 80px;
   color: red;
   text-decoration-line: underline;
-  text-shadow: 4px 4px  coral;
+  text-shadow: 4px 4px coral;
   text-align: center;
 }
-
 
 #container {
   display: flex;
@@ -19,6 +18,7 @@ h1 {
 }
 
 .todoListMain .header input {
+  font-family: 'Montserrat', sans-serif;
   padding: 10px;
   font-size: 16px;
   border: 2px solid white;
@@ -26,6 +26,7 @@ h1 {
 }
 
 .todoListMain .header button {
+  font-family: 'Montserrat', sans-serif;
   padding: 10px;
   font-size: 16px;
   margin: 10px;
@@ -36,26 +37,30 @@ h1 {
 }
 
 .todoListMain .header button:hover {
-    background-color: darkred;
-    border: 2px solid darkred;
-    cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  background-color: darkred;
+  border: 2px solid darkred;
+  cursor: pointer;
 }
 
 .todoListMain .theList li {
-    color: black;
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    list-style: none;
-    transition: background-color .2s ease-out;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+  transition: background-color 0.2s ease-out;
 }
 
 .todoListMain .theList li:hover {
+  font-family: 'Montserrat', sans-serif;
   background-color: coral;
   cursor: pointer;
 }
 
 ul.theList {
+  font-family: 'Montserrat', sans-serif;
   padding: 0;
 }

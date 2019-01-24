@@ -18,27 +18,27 @@ class TodoList extends Component {
         text: this._inputElement.value,
         key: Date.now()
       };
-      this.setState((prevState) => {
+      this.setState(prevState => {
         return {
           items: prevState.items.concat(newItem)
         };
       });
-    }    this._inputElement.value = "";
+    }
+    this._inputElement.value = "";
 
     console.log(this.state.items);
 
     event.preventDefault();
   }
 
-    deleteItem(key) {
-      let filteredItems = this.state.items.filter(function (item){
-      return (item.key !== key)
-  
+  deleteItem(key) {
+    let filteredItems = this.state.items.filter(function(item) {
+      return item.key !== key;
     });
     this.setState({
       items: filteredItems
     });
-  };
+  }
 
   render() {
     return (
@@ -52,11 +52,10 @@ class TodoList extends Component {
             <button type="submit">add</button>
           </form>
         </div>
-        <TodoItems entries={this.state.items}
-        delete={this.deleteItem}        />
+        <TodoItems entries={this.state.items} delete={this.deleteItem} />
       </div>
     );
-  };
-};
+  }
+}
 
 export default TodoList;
